@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/belle_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="cursive"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textColor="#F4A460"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="150dp"
+            tools:layout_editor_absoluteY="245dp" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="@color/colorPrimary"/>
+
+        <TextView
+            android:id="@+id/Text_view_names"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="cursive"
+            android:text="BELLE VUE GUEST HOUSE"
+            android:textAlignment="center"
+            android:textColor="#F4A460"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/image_view_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/belle" />
+
+        <TextView
+            android:layout_marginBottom="10dp"
+            android:textAlignment="center"
+            android:id="@+id/Belle_Description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:text="Description"
+            android:textColor="#F4A460"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:textAlignment="center"
+            android:id="@+id/Belle_Details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:text="Luxury bed and brealfast in scoemansville, Hartbeespoort,North west although our
+name says it all, we have a lot more to offer than just beautiful View. Escape from the everyday hustle and bustle of the city and come and relax and unwind in Hartebeespoort dam in the North West Province..."
+            android:textColor="#F4A460"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif"
+            android:text="Price"
+            android:textStyle="bold"
+            android:textColor="#F4A460" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:textAlignment="center"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif"
+            android:text="R299,00 Per Night"
+            android:textColor="#F4A460" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="@color/colorPrimary"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/thaba"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#F4A460"
+            android:text="THABA TSHWENE"
+            android:textAlignment="center"
+            android:id="@+id/Text_view_thaba"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:fontFamily="cursive"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/image_view_thaba"
+            android:src="@drawable/thaba"
+            />
+
+        <TextView
+            android:id="@+id/thaba_Description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            android:textAlignment="center"
+            android:textColor="#F4A460"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:fontFamily="sans-serif"
+            />
+
+        <TextView
+            android:id="@+id/thaba_Details"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Venue for wedding,conferences and Functions,5km out of Hartbeesfontein, near klersdorp,North west Thaba Tshwene Game Lodge is situated in the North West province and set against a backdrop of lush green mountainous vegetation.All our facilities offer guests four star comfort in a scenic natural setting..."
+            android:textColor="#F4A460"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:fontFamily="sans-serif"
+            />
+        <TextView
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Price"
+            android:textStyle="bold"
+            android:textColor="#F4A460"
+            android:fontFamily="sans-serif"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:textAlignment="center"
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif"
+            android:text="R350,00 Per Night"
+            android:textColor="#F4A460" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="@color/colorPrimary"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/karee"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#F4A460"
+            android:text="Karee Krans"
+            android:textAlignment="center"
+            android:id="@+id/Text_view_karee"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:fontFamily="cursive"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/image_view_karee"
+            android:src="@drawable/karee"
+            />
+
+        <TextView
+            android:id="@+id/karee_Description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            android:textColor="#F4A460"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:fontFamily="sans-serif"
+            android:textAlignment="center"
+            />
+
+        <TextView
+            android:id="@+id/karee_Details"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:textAlignment="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Venue for wedding,conferences and Functions,5km out of Hartbeesfontein, near klersdorp,North west Thaba Tshwene Game Lodge is situated in the North West province and set against a backdrop of lush green mountainous vegetation.All our facilities offer guests four star comfort in a scenic natural setting..."
+            android:textColor="#F4A460"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:fontFamily="sans-serif"
+            />
+        <TextView
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Price"
+            android:textStyle="bold"
+            android:textColor="#F4A460"
+            android:fontFamily="sans-serif"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="R250,00 Per Night"
+            android:textColor="#F4A460"
+            android:fontFamily="sans-serif"
+            android:layout_marginTop="5dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="@color/colorPrimary"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/rustig"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#F4A460"
+            android:text="RUSTIG"
+            android:textAlignment="center"
+            android:id="@+id/Text_view_rustig"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:fontFamily="cursive"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/image_view_rustig"
+            android:src="@drawable/rustig"
+            />
+
+        <TextView
+            android:id="@+id/rustig_Description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            android:textColor="#F4A460"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:fontFamily="sans-serif"
+            android:textAlignment="center"
+            />
+
+        <TextView
+            android:id="@+id/rustig_Details"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:textAlignment="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Venue for wedding,conferences and Functions,5km out of Hartbeesfontein, near klersdorp,North west Thaba Tshwene Game Lodge is situated in the North West province and set against a backdrop of lush green mountainous vegetation.All our facilities offer guests four star comfort in a scenic natural setting..."
+            android:textColor="#F4A460"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:fontFamily="sans-serif"
+            />
+        <TextView
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Price"
+            android:textStyle="bold"
+            android:textColor="#F4A460"
+            android:fontFamily="sans-serif"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="R550,00 Per Night"
+            android:textColor="#F4A460"
+            android:fontFamily="sans-serif"
+            android:layout_marginTop="5dp"/>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="@color/colorPrimary"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/olive"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#F4A460"
+            android:text="Olive Tree Farm"
+            android:textAlignment="center"
+            android:id="@+id/Text_view_olive"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:fontFamily="cursive"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/image_view_olive"
+            android:src="@drawable/olive"
+            />
+
+        <TextView
+            android:id="@+id/olive_Description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            android:textColor="#F4A460"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:fontFamily="sans-serif"
+            android:textAlignment="center"
+            />
+
+        <TextView
+            android:id="@+id/olive_Details"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:textAlignment="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="$ star accomodation in magaliesburg,Enjoy a stay in one of our 4 star in one of our 4 star accomodation suites.Magaliesburg bed and breakfast or self catering accomodation in the heartof the magaliesburg mountain range..."
+            android:textColor="#F4A460"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:fontFamily="sans-serif"
+            />
+        <TextView
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Price"
+            android:textStyle="bold"
+            android:textColor="#F4A460"
+            android:fontFamily="sans-serif"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="R600,00 Per Night"
+            android:textColor="#F4A460"
+            android:fontFamily="sans-serif"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#F4A460"
+            android:text="----"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="@color/colorAccent"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/stop"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#F4A460"
+            android:text="Stop and Stay Lodge Rustenburg"
+            android:textAlignment="center"
+            android:id="@+id/Text_view_stop"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:fontFamily="cursive"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/image_view_stop"
+            android:src="@drawable/stop"
+            />
+
+        <TextView
+            android:id="@+id/stop_Description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            android:textColor="#F4A460"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:fontFamily="sans-serif"
+            android:textAlignment="center"
+            />
+
+        <TextView
+            android:id="@+id/stop_Details"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:textAlignment="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Stop N say lodge, Rustenburg offers selfcatering accomodation, wedding venue and conference facilities 2km from Rustenburg CBD, North West. At stop N stay lodge you will find 3 Star and $ star self catering accomodation..."
+            android:textColor="#F4A460"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:fontFamily="sans-serif"
+            />
+        <TextView
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Price"
+            android:textStyle="bold"
+            android:textColor="#F4A460"
+            android:fontFamily="sans-serif"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="R600,00 Per Night"
+            android:textColor="#F4A460"
+            android:fontFamily="sans-serif"
+            android:layout_marginTop="5dp"/>
+
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="@color/colorPrimary"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.brenda.north_west_tour_guide.MainActivity">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="50dp"
+    android:textStyle="bold"
+    android:textColor="#F4A460"
+    android:textAlignment="center"
+    android:fontFamily="cursive"
+    android:textSize="30dp"
+    android:text="Welcome to North West Tour Guide"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:padding="10dp"
+        android:background="#FFA07A"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="1dp"
+        android:src="@drawable/suncity" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:textStyle="italic"
+        android:text="The North West provience of South Africa is bordered by Botswana in the north and by the Kalahari desert in the west, Gauteng to the east, and Free State to the south.
+
+Mahikeng is the capital city of the North West and is historically known for the Mafikeng Siege (1899) during the Anglo-Boer/South African war. Potchefstroom, Klerksdorp, Rustenburg and Brits are the economic hubs of the North West province of its game reserve, national park and the world-famous Sun City.
+
+Accomodation in the North West province gives tourists such wide variety of choices, grades and affordability..............."/>
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:background="#00BFFF"
+        android:id="@+id/btnNext"
+        android:layout_marginTop="30dp"/>
+
+
+</LinearLayout>

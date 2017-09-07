@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.brenda.north_west_tour_guide.Third_Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <TextView
+        android:id="@+id/third_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:textColor="#F4A460"
+        android:textStyle="bold"
+        android:textSize="40dp"
+        android:text="Events in North West"
+        tools:layout_editor_absoluteX="108dp"
+        tools:layout_editor_absoluteY="160dp" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="@color/colorPrimary"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5km Timed Run"
+            android:textAlignment="center"
+            android:fontFamily="cursive"
+            android:textColor="#F4A460"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            />
+
+        <LinearLayout
+            android:id="@+id/run_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/run_view_image"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/run" />
+
+            <TextView
+                android:layout_marginBottom="10dp"
+                android:textAlignment="center"
+                android:id="@+id/run_Description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:text="Description"
+                android:textColor="#F4A460"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:paddingRight="20dp"
+                android:paddingLeft="20dp"
+                android:textAlignment="center"
+                android:id="@+id/run_Details"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:text="Date : To be announced...Location: Every sat at 8:00 am-
+Relief and govan Mbeki avenue, Potchet street
+Portchefstroom parkrun -weekly free 5 km timed run, its you against the clock....."
+                android:textColor="#F4A460"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="@color/colorPrimary"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/swin_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+
+            <TextView
+                android:id="@+id/Text_view_swin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="cursive"
+                android:text="KAYAKING"
+                android:textAlignment="center"
+                android:textColor="#F4A460"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/swim_view_image"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/swim" />
+
+            <TextView
+                android:layout_marginBottom="10dp"
+                android:textAlignment="center"
+                android:id="@+id/swim_Description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:text="Description"
+                android:textColor="#F4A460"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:paddingRight="20dp"
+                android:paddingLeft="20dp"
+                android:textAlignment="center"
+                android:id="@+id/swim_Details"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:text="DATE : 02 september 2017...LOCATION : Motlhabe  Rampudu Section
+Group of 5 people competing against one another..the winning team takes home R50 000"
+                android:textColor="#F4A460"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="@color/colorPrimary"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/food_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/Text_view_food"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="cursive"
+                android:text="The Life  Market"
+                android:textAlignment="center"
+                android:textColor="#F4A460"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/food_view_image"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/food" />
+
+            <TextView
+                android:layout_marginBottom="10dp"
+                android:textAlignment="center"
+                android:id="@+id/food_Description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:text="Description"
+                android:textColor="#F4A460"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/food_Details"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:text="Date : To be announced...Location : Saturday 9:00am to 14:00 pm c/o
+Wolmarans and Piet Bosman Street
+2531 Potchefstroom
+
+The life market -potchefstroom is a local market where fresh interesting and out of the ordinary food can be found."
+                android:textAlignment="center"
+                android:textColor="#F4A460"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="@color/colorPrimary"/>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:id="@+id/family_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+
+            <TextView
+                android:id="@+id/Text_view_family"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="cursive"
+                android:text="Olifantnek Family fun day"
+                android:textAlignment="center"
+                android:textColor="#F4A460"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/family_view_image"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/family" />
+
+            <TextView
+                android:layout_marginBottom="10dp"
+                android:textAlignment="center"
+                android:id="@+id/family_Description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:text="Description"
+                android:textColor="#F4A460"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:paddingRight="20dp"
+                android:paddingLeft="20dp"
+                android:textAlignment="center"
+                android:id="@+id/family_Details"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:text="Date : 04 November 2017...Location : olifantsnek concerned home owner are again hosting our annual family fun day at olifantsnek dam
+
+                we are planning flea market stall, games, jumping castle, camel rides and more....."
+                android:textColor="#F4A460"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="@color/colorPrimary"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/belle_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+
+            <TextView
+                android:id="@+id/Text_view_names"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="cursive"
+                android:text="National Choir Festival North West"
+                android:textAlignment="center"
+                android:textColor="#F4A460"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/image_view_image"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/choir" />
+
+            <TextView
+                android:layout_marginBottom="10dp"
+                android:textAlignment="center"
+                android:id="@+id/Belle_Description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:text="Description"
+                android:textColor="#F4A460"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:paddingRight="20dp"
+                android:paddingLeft="20dp"
+                android:textAlignment="center"
+                android:id="@+id/Belle_Details"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:text="Date : 02 September 2017
+                Location : Matlosane City Hall in klerksdorp...Come and hear the music that will touch your soul..."
+                android:textColor="#F4A460"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="@color/colorPrimary"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
